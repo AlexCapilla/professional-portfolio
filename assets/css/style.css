@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--font-main);
-    font-family: "Roboto";
+    font-family: "Trebuchet MS";
     background-color: var(--body-main);
 }
 
@@ -92,8 +92,13 @@ main{
     min-height: 30vh;
 }
 
-.hero div {
-    flex: 0 0 90%;
+#portrait {
+    width: 350px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid var(--header-main);
+    padding: 5px;
+
 
 }
 
@@ -167,6 +172,8 @@ line-height: 1.1;
     background-color: rgba(25, 48, 175, 0.3);
 }
 
+
+
 .contact address {
 display: flex;
 flex-wrap: wrap;
@@ -182,4 +189,10 @@ height: 100%;
     font-size: 1.3rem;
     display: inline-block;
     
+}
+
+.contact-me {
+width: 90px;
+height: 90px;
+border-radius: 50%;
 }
